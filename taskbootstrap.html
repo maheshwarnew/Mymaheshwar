@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+    <style>
+      body{
+        padding: 0;
+        margin: 0;
+      }
+      .container{
+        border: 1px solid black;
+      }
+      .box{
+        border: 1px solid black;
+        width: 235px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        background-color: aqua;
+      }
+      .col-6{
+        box-sizing: border-box;
+      }
+      #cen1{
+        width: 525px;
+        margin-right: 25px;
+        margin-left: 15px;
+
+      }
+      #cen2{
+        width: 525px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+      }
+    </style>
+</head>
+<body>
+    <div class="container col-gap-3 bg-success">
+      <div class="row p-3 ">
+        
+        <div id="cen1" class="col-6  border border-dark p-3 row-gap-2 d-flex justify-content-center align-items-center flex-wrap bg-primary">
+          <div  class="col-6">
+            <div class="box ">box1</div>
+          </div>
+          <div class="col-6">
+            <div class="box">box2</div>
+
+          </div>
+          <div class="col-6">
+            <div class="box ">box3</div>
+
+          </div>
+          <div class="col-6">
+            <div class="box">box4</div>
+
+          </div>
+
+        </div>
+        <div id="cen2" class="col-6  border border-dark text-align-center bg-primary ">
+          <div>
+            welcome
+          </div>
+        </div>
+      </div>
+    
+       
+      </div>
+            
+               
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
